@@ -589,20 +589,6 @@ nav ul li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------zurithree-------*/
 
 
@@ -679,7 +665,7 @@ nav ul li a {
   left: 10px;
 }
 
-.righttext img{
+.section1{
 width: 30%;
 position: absolute;
 left: 850px;
@@ -693,8 +679,6 @@ bottom: -150px
   position: absolute;
   top: 700px;
   
- 
-  
 }
 .flagetext h4{
   position: absolute;
@@ -707,7 +691,7 @@ font-weight: 400;
 color: #575757;
 }
 
-.flag img{
+.section2{
   position: absolute;
   width: 400px;
   left: 700px;
