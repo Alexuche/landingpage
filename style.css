@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: graphik, averta;
+  font-family: "graphik", "averta";
 }
 body {
   background-color: #fff;
@@ -754,34 +754,34 @@ font-size: 20px;
   width: 250px; 
   font-size: 10px;
 }
+
+.scopebox h5{
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  top: 100px;
+  font-weight: 600;
+  color: #575757;
+  }
  /*-------first three boxs------*/
 .scopebox .logobox1 img{
-  width: 30px;
+  width: 40px;
   margin-top: 20px;
   
 }
 
 .scopebox .logobox2 img{
-  width: 30px;
+  width: 40px;
   margin-top: 20px;
   
 }
 
 .scopebox .logobox3 img{
-  width: 30px;
+  width: 40px;
   margin-top: 20px;
   
 }
 
-
-.scopebox2{
-  padding-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: -3px;
-  margin: 30px;
-  box-sizing: border-box;
-}
 .scopebox-enroll{
   border: none;
   background-color: #d8131c;
@@ -793,6 +793,305 @@ position: absolute;
 margin-top: -1340px;
 text-decoration: none;
 }
+
+
+
+/*---------second------*/
+
+.scopebox2{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: -3px;
+  margin: 30px;
+  box-sizing: border-box;
+}
+
+.devops{
+  border: none;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  height: 260px;
+  margin-left: 40px;
+  width: 250px;
+  font-size: 10px;
+  
+}
+.fullstackdev{
+  border: none;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  height: 260px;
+  margin-left: 40px;
+  width: 250px;
+  font-size: 10px;
+}
+.frameworks{
+  border: none;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  height: 260px;
+  margin-left: 40px;
+  width: 250px; 
+  font-size: 10px;
+}
+.scopebox2 h5{
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  top: 100px;
+  font-weight: 600;
+  color: #575757;
+  }
+
+  /*-------three box------*/
+  .scopebox2 .logobox4 img{
+    width: 80px;
+    margin-top: 20px;
+    
+  }
+  
+  .scopebox2 .logobox5 img{
+    
+    width: 40px;
+    margin-top: 20px;
+    
+  }
+  
+  .scopebox2 .logobox6 img{
+    width: 70px;
+    margin-top: 20px;
+    
+  }
+  .question hr{
+position: relative;
+top: -1200px;
+margin-left: 70px;
+margin-right: 70px;
+  }
+  .wire img{ 
+    position: relative;
+    top: -1150px;
+    left: 200px;
+    width: 120px;
+  }
+  .question h3{
+    color: #d8131c;
+    position: relative;
+    top: -1200px;
+    text-align: center;
+  }
+  .question h1{
+    position: relative;
+    top: -1195px;
+    text-align: center;
+    
+  }
+  .question table td{
+    border: 1px solid #575757;
+    position: relative;
+    top: -1100px;
+    left: 300px;
+    width: 60%;
+    height: 10vh; 
+    padding: 8px;
+  }
+  .plus{
+    position: relative;
+    font-size: 30px;
+    top: -1040px;
+    left: 1055px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .plus1{
+    position: relative;
+    font-size: 30px;
+    top: -950px;
+    left: 1040px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .plus2{
+    position: relative;
+    font-size: 30px;
+    top: -870px;
+    left: 1023px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .plus3{
+    position: relative;
+    font-size: 30px;
+    top: -780px;
+    left: 1007px;
+    text-decoration: none;
+    color: #000000;
+  }
+  .plus4{
+    position: relative;
+    font-size: 30px;
+    top: -700px;
+    left: 990px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .gotquestion h3{
+    color: #575757;
+    position: relative;
+    top: -1000px;
+    left: -80px;
+    font-weight: 400;
+    font-size: 17px;
+
+  }
+  .tweetbox{
+    border: none;
+    background-color: #d8131c;
+    position: relative;
+    top: -1020px;
+    left: 690px;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  .gotquestion hr{
+    position: relative;
+    top: -950px;
+    
+  }
+
+  .structure img{
+position: relative;
+top: -900px;
+position: relative;
+    left: 200px;
+    width: 120px;
+  }
+
+  .structure h3{
+    top: -900px;
+    font-weight: 400;
+  }
+  .structure h1{
+    top: -895px;
+  }
+  .structure h5{
+    position: relative;
+    top: -880px;
+    text-align: center;
+    color: #575757;
+   
+  }
+
+  .red img{
+    left: 1100px;
+    position: relative;
+    top: -1050px;
+  }
+
+  /*-----------twoblackbox-----*/
+
+  .twoblackbox{
+    padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: -3px;
+  margin: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: -1000px;
+  }
+
+  .fulltime{
+    border: none;
+    background-color: rgb(6, 7, 19);
+    padding: 50px;
+    border-radius: 50px;
+    height: 500px;
+    margin-left: 40px;
+    width: 350px;
+    font-size: 10px;
+    position: relative;
+    left: 130px;
+  }
+
+  .fulltime h1{
+    position: relative;
+    top: 10px;
+    left: -130px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .require h5{
+    position: relative;
+    top: 25px;
+    font-size: 15px;
+    left: -30px;
+    color: #575757;
+
+  }
+  .require h4{
+    position: relative;
+    top: 25px;
+    font-size: 15px;
+    left: -20px;
+color: #575757;
+  }
+
+  .available h1{
+    position: relative;
+    color: #fff;
+    top: 50px;
+    font-size: 20px;
+    left: -110px;
+    
+  }
+  .available p{
+position: relative;
+    color: #575757;
+    top: 80px;
+    font-size: 15px;
+  }
+
+  .phase h1{
+    top: 100px;
+    position: relative;
+    left: -130px;
+  }
+
+  .parttime{
+    border: none;
+    background-color: rgb(6, 7, 19);
+    padding: 50px;
+    border-radius: 50px;
+    height: 500px;
+    position: relative;
+    right: -10px;
+    width: 350px;
+    font-size: 10px;
+  }
+
+  .parttime h1{
+    position: relative;
+    top: 10px;
+    left: -130px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+
+
+
+
+
 
 
 
