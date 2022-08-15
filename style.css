@@ -689,7 +689,7 @@ nav ul li a {
   
   background: antiquewhite;
   margin: auto;
-  height: 600vh;
+  height: 400vh;
 }
 .scopeprogram h5{
 color: #d64048;
@@ -707,6 +707,7 @@ font-size: 20px;
   justify-content: space-around;
   position: relative;
   font-weight: 600;
+  
   
 }
 .scopeprogram img{
@@ -734,6 +735,15 @@ font-size: 20px;
   font-size: 10px;
   
 }
+.frontend h5{
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  top: 70px;
+  font-weight: 600;
+  color: #575757;
+  }
+
 .backend{
   border: none;
   background-color: #fff;
@@ -744,6 +754,17 @@ font-size: 20px;
   width: 250px;
   font-size: 10px;
 }
+.backend h5{
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  top: 70px;
+  font-weight: 600;
+  color: #575757;
+  }
+
+
+
 .design{
   border: none;
   background-color: #fff;
@@ -755,7 +776,32 @@ font-size: 20px;
   font-size: 10px;
 }
 
-.scopebox h5{
+
+.design .designtext h5{
+  position: relative;
+  top: 50px;
+  left: -630px;
+  width: 250px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #575757;
+  
+}
+.design h1{
+  position: relative;
+  left: -650px;
+  text-align: center;
+  top: -20px;
+  width: 250px;
+  color: #000000;
+  
+  
+  
+}
+
+
+/*.scopebox h5{
   position: relative;
   font-size: 12px;
   line-height: 18px;
@@ -777,6 +823,7 @@ font-size: 20px;
 }
 
 .scopebox .logobox3 img{
+  position: relative;
   width: 40px;
   margin-top: 20px;
   
@@ -1200,6 +1247,49 @@ color: #575757;
 .postpro1 h5{
   position: relative;
   top: -1750px;
+}
+
+
+/*----------getstartedbox------*/
+
+.getstartedbox {
+  box-sizing: border-box;
+  border: none;
+  background-color: #d8131c;
+  width: 80%;
+  height: 60vh;
+  position: absolute;
+  left: 110px;
+  top: 6400px;
+  padding: 50px 50px 50px 50px;
+  border-radius: 20px;
+}
+
+.getstarted h5{
+  font-size: 15px;
+  text-align: center;
+  top: 5px;
+  color: #fff;
+}
+
+.getstarted h1{
+  text-align: center;
+  top: 50px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.enrollgetbox{
+  border: none;
+  background-color: #fff;
+  width: 30%;
+  top: 100px;
+  left: 400px;
+  position: relative;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #d64048;
 }
 
 
