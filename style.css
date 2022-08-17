@@ -370,7 +370,14 @@ nav ul li a {
   margin-left: 50px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+
+  .containerbox1:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox1 h1 {
   font-size: 50px;
   color: #fff;
@@ -399,7 +406,14 @@ nav ul li a {
   margin-left: 40px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+  
+  .containerbox2:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox2 h1 {
   font-size: 50px;
 }
@@ -429,7 +443,14 @@ nav ul li a {
   margin-right: 50px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+  
+  .containerbox3:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox3 h1 {
   font-size: 50px;
 }
@@ -475,7 +496,14 @@ nav ul li a {
   margin-left: 50px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+  
+  .containerbox4:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox4 h1 {
   font-size: 50px;
   color: #000000;
@@ -504,7 +532,14 @@ nav ul li a {
   margin-left: 40px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+  
+  .containerbox5:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox5 h1 {
   font-size: 50px;
 }
@@ -533,7 +568,14 @@ nav ul li a {
   margin-right: 50px;
   cursor: pointer;
     box-shadow: -4px 4px 20px 0 rgb(238, 187, 187);
-}
+
+    transition: 1s;
+  }
+  
+  .containerbox6:hover{
+      transform: translateY(-10px);
+  }
+
 .containerbox6 h1 {
   font-size: 50px;
 }
@@ -812,21 +854,10 @@ font-size: 20px;
   text-align: center;
   top: -20px;
   width: 250px;
-  color: #000000;
-  
-  
-  
+  color: #000000;  
 }
 
 
-/*.scopebox h5{
-  position: relative;
-  font-size: 12px;
-  line-height: 18px;
-  top: 100px;
-  font-weight: 600;
-  color: #575757;
-  }
  /*-------first three boxs------*/
 .scopebox .logobox1 img{
   width: 40px;
@@ -1319,16 +1350,6 @@ color: #575757;
   text-decoration: none;
   color: #d64048;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1855,15 +1876,3 @@ width: 30px;
 
 
 
-/*
-.movie-img{
-    height: 300px;
-    box-shadow: -4px 4px 5px 0 #000;
-    margin-left: 900px;
-    margin-top: -1000px;
-    cursor: pointer;
-    transition: 1s;
-}
-.movie-img:hover{
-    transform: translateY(-10px);
-}*/
